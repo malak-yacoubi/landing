@@ -1,0 +1,33 @@
+ @import url("https://fonts.googleapis.com/css?family=Bitter|Playfair+Display&display=swap");
+
+ @import url("components/container.css");
+ @import url("components/avatar.css");
+ @import url("components/button.css");
+ @import url("components/banner.css");
+
+ body{
+font-family:'Bitter', serif;
+font-size:18px;
+background-color:white;
+ }
+
+ h1,h2,h3{
+ 	font-family: 'Playfair Display', serif;
+ }
+
+ .cards{
+ 	display:flex;
+	justify-content:space-around;
+	flex-wrap: wrap
+ }
+ .card{
+ 	width:300px;
+ 	display:flex;
+ 	background-color:#C7BCB1;
+ 	box-shadow:rgba(0,0,0,0.1);
+ 	border-radius:2%;
+ 	margin-top:15px;
+ 	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+ }
